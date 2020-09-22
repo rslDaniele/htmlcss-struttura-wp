@@ -1,3 +1,55 @@
-*{
-  background-color: green;
+body{
+  background-color: lightblue;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  height: 200px;
+  background-color: yellow;
+  margin: 2%;
+}
+
+#sx{
+  float: left;
+  width: 25%;
+  background-color: pink;
+  margin: 2%;
+  height: 300px;
+}
+
+#center{
+  float: left;
+  width: 38%;
+  background-color: purple;
+  margin: 2%;
+  height: 450px;
+}
+
+
+#dx{
+  float: left;
+  width: 25%;
+  background-color: pink;
+  margin: 2%;
+  height: 300px;
+}
+
+#destra{
+  height: 100px;
+  background-color: pink;
+
+}
+
+footer{
+  height: 200px;
+  background-color: blue;
+  margin: 2%;
 }
